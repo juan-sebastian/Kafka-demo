@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "Contract",
+  "namespace": "com.example",
+  "fields": [
+    {
+      "name": "contract_id",
+      "type": "string",
+      "doc": "Unique identifier for the contract"
+    },
+    {
+      "name": "user_id",
+      "type": "string",
+      "doc": "Identifier of the user who has this contract"
+    },
+    {
+      "name": "contract_date",
+      "type": "string",
+      "doc": "Date of the contract (in ISO-8601 format, e.g., '2023-06-15')"
+    },
+    {
+      "name": "amount",
+      "type": "double",
+      "doc": "Monetary value of the contract"
+    }
+  ]
+}

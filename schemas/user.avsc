@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "com.example",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "doc": "Unique identifier for the user"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Name of the user"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "Email address of the user"
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "doc": "Physical address of the user"
+    }
+  ]
+}

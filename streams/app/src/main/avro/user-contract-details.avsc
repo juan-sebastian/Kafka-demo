@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "UserContractDetails",
+  "namespace": "com.example",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "contractId",
+      "type": "string"
+    },
+    {
+      "name": "contractDate",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    }
+  ]
+}
