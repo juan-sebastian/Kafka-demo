@@ -128,3 +128,7 @@ Consumer groups allow you to parallelize the consumption of messages from Kafka 
 ## The infrastructure backbone
 
 ![](images/infrastructure.png)
+
+## Examples of Kafka Use Cases with EMP and CRM Systems
+![](images/EMP-System.png)
+![](images/CRM-System.png)
